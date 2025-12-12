@@ -1,0 +1,16 @@
+{
+  "name": "inventory-api",
+  "version": "1.0.0",
+  "description": "Inventory Manager API (no Express) - exam solution",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init-db": "node init_db.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.5.0"
+  }
+}
